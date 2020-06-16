@@ -1,0 +1,17 @@
+span {
+    /* display: block; */
+    display: inline-block;
+    /* need them to be side by side, but also have margin all the sides */
+    border: 2px solid crimson;
+    margin: 20px;
+    padding: 20px;
+}
+
+div {
+    /* concept of margin collapse */
+    /* display: inline; */
+    /* display: inline-block; */
+    border: 2px solid crimson;
+    margin: 20px;
+    padding: 20px;
+}
