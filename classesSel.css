@@ -1,0 +1,84 @@
+/* p {
+    color: blue;
+    line-height: 30px;
+    column-count: 2;
+}
+
+p.error {
+    color: crimson;
+    line-height: 20px;
+}
+
+p.success {
+    color: darkgreen;
+    line-height: 40px;
+}
+
+Target p tag having both classes = "success" and "feedback"
+p.success.feedback {
+    border: 1px dashed blue;
+    padding: 10px;
+}
+
+#content {
+    background-color: #ebebeb;
+    padding: 30px;
+} */
+
+/* ****************************************************** */
+
+/* Descendent Selectors
+
+Target only p tags inside div tags
+div p {
+    color: chartreuse;
+}
+
+Target <a> tags inside <p> tags inside <div> tag
+div p a {
+    color: orangered;
+}
+
+Target tags with class="error" inside div tag
+Notice the space
+div .error {
+    color: red;
+}
+
+If space is removed, it will target div tag with class="error"
+div.error {
+    color: deeppink;
+} */
+
+/* **************************************************************** */
+
+/* Target anchor tags with a href value */
+a[href] {
+    background-color: cornflowerblue;
+}
+
+/* Target anchor tags with a specific href value */
+/* a[href="https://www.google.com"] {
+    background-color: fuchsia;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+} */
+
+/* Target anchor tag with href containing a specific text */
+/* a[href*="google"] {
+    background-color: fuchsia;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+} */
+
+a[href$=".in"] {
+    background-color: fuchsia;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}

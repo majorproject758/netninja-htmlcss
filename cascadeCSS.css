@@ -1,0 +1,13 @@
+div {
+    color: lightcoral;
+    border: 2px solid lightseagreen;
+    margin: 30px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+p {
+    border: inherit;
+    margin: inherit;
+    color: crimson;
+}
